@@ -1,11 +1,12 @@
-Visualization of data from weather station Garni 940.
+
+#Visualization of data from weather station Garni 940.
 
 Data from this waether station can be uploaded via Wi-Fi to 4 different weather servers and 1 user's own server. 
 
 
-Set you device to upload data to your server and script via http GET in "WS view: application  
+Set you device to upload data to your server and script via http GET in "WS view: application
 
-!! https is not supported (and curretly not planned)
+**!! https is not supported (and curretly not planned)**
 
 If you have more than one weather station, you can use station id and key to indentify station or for some basic security to verify that device that is uploading data is realy that device (which is really funny when you can use only http).
 
@@ -30,3 +31,4 @@ And some settings leaves untouched - for example for weeklyrainin - week starts 
 Finally it's quite easy to connect grafana to influxdb datasource and add graphs for individual values.
 
 ![grafana](/grafana.png)
+
