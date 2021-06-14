@@ -7,6 +7,8 @@ Set you device to upload data to your server and script via http GET in "WS view
 
 !! https is not supported (and curretly not planned)
 
+If you have more than one weather station, you can use station id and key to indentify station or for some basic security to verify that device that is uploading data is realy that device (which is really funny when you can use only http).
+
 ![WS view device setup](/ws_view.png)
 
 I use 
