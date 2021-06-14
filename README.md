@@ -15,13 +15,13 @@ I use
 - Grafana 8.0.0 https://grafana.com/docs/grafana/latest/installation/debian/
   - Grafana Gauge panel for wind direction visualization https://github.com/briangann/grafana-gauge-panel
 
-influxdb php client from https://github.com/influxdata/influxdb-client-php
+- influxdb php client from https://github.com/influxdata/influxdb-client-php
 
 As garni send values in Anglo-American measurement units - script tries to convert values to more common units in our country:
- F -> C
- InHg -> hPa
- mph -> m/s
- in -> mm
+- F -> C
+- InHg -> hPa
+- mph -> m/s
+- in -> mm
 
 And some settings leaves untouched - for example for weeklyrainin - week starts on sunday. 
 
