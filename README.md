@@ -18,10 +18,10 @@ I use
 influxdb php client from https://github.com/influxdata/influxdb-client-php
 
 As garni send values in Anglo-American measurement units - script tries to convert values to more common units in our country:
-F -> C
-InHg -> hPa
-mph -> m/s
-in -> mm
+ F -> C
+ InHg -> hPa
+ mph -> m/s
+ in -> mm
 
 And some settings leaves untouched - for example for weeklyrainin - week starts on sunday. 
 
