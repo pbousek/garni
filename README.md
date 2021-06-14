@@ -3,7 +3,7 @@
 Data from this waether station can be uploaded via Wi-Fi to 4 different weather servers and 1 user's own server. 
 
 
-Set you device to upload data to your server and script via http GET in "WS view: application
+Set you device to upload data to your server and script via http GET in "WS view" application
 
 **!! https is not supported (and curretly not planned)**
 
