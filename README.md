@@ -25,7 +25,7 @@ As garni send values in Anglo-American measurement units - script tries to conve
 - mph -> m/s
 - in -> mm
 
-And some settings leaves untouched - for example for weeklyrainin - week starts on sunday. 
+And some settings leaved untouched - for example for weeklyrainin - week starts on sunday. 
 
 Finally it's quite easy to connect grafana to influxdb datasource and add graphs for individual values.
 
